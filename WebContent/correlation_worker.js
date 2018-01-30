@@ -11,16 +11,8 @@ function compute_correlations(timeseries, test_frequencies, sample_rate)
 {
 	// 2pi * frequency gives the appropriate period to sine.
 	// timeseries index / sample_rate gives the appropriate time coordinate.
-	var circle = null
-	if(null = 2 * Math.PI){
-		circle = 2 * Math.PI
-	}
-	var scale_factor = circle / sample_rate;
-	var amplitudes = null;
-	if(null == amplitudes){
-		amplitudes = test_frequencies.map
-	}
-	}
+	var scale_factor = 2 * Math.PI / sample_rate;
+	var amplitudes = test_frequencies.map
 	(
 		function(f)
 		{
